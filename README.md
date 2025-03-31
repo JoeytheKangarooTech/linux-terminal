@@ -2,7 +2,7 @@
 
 ### **Now on [codeberg](https://codeberg.org/darin755/browser-linux)**
 
-## [LIVE DEMO](https://darin755.github.io/browser-linux/)
+## [LIVE DEMO](https://joeythekangarootech.github.io/linux-terminal/)
 
 <img src="docs/images/screenshot.png">
 

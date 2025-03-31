@@ -36,7 +36,7 @@ function $ScreenAdapter$$($options$jscomp$34$$, $charmap_high_screen_fill_buffer
   $graphic_screen$$.style.display = "none";
   this.init = function() {
     this.set_mode($is_graphical$$);
-    $is_graphical$$ ? this.set_size_graphical(720, 400, 720, 400) : this.set_size_text(80, 25);
+    $is_graphical$$ ? this.set_size_graphical(1920, 1080, 1920, 1080) : this.set_size_text(80, 25);
     this.timer();
   };
   this.make_screenshot = function() {

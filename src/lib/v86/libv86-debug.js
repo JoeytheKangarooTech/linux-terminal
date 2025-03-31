@@ -6,8 +6,8 @@ function $ScreenAdapter$$($options$jscomp$34$$, $charmap_high_screen_fill_buffer
     return "#" + "0".repeat(6 - $n$jscomp$2$$.length) + $n$jscomp$2$$;
   }
   function $elem_set_scale$$($elem$jscomp$1$$, $scale_x$jscomp$1$$, $scale_y$jscomp$1$$, $device_pixel_ratio_use_scale$$) {
-    $elem$jscomp$1$$.style.width = "";
-    $elem$jscomp$1$$.style.height = "";
+    $elem$jscomp$1$$.style.width = "1920";
+    $elem$jscomp$1$$.style.height = "1080";
     $device_pixel_ratio_use_scale$$ && ($elem$jscomp$1$$.style.transform = "");
     var $rectangle$$ = $elem$jscomp$1$$.getBoundingClientRect();
     $device_pixel_ratio_use_scale$$ ? $elem$jscomp$1$$.style.transform = (1 === $scale_x$jscomp$1$$ ? "" : " scaleX(" + $scale_x$jscomp$1$$ + ")") + (1 === $scale_y$jscomp$1$$ ? "" : " scaleY(" + $scale_y$jscomp$1$$ + ")") : (0 === $scale_x$jscomp$1$$ % 1 && 0 === $scale_y$jscomp$1$$ % 1 ? ($graphic_screen$$.style.imageRendering = "crisp-edges", $graphic_screen$$.style.imageRendering = "pixelated", $graphic_screen$$.style["-ms-interpolation-mode"] = "nearest-neighbor") : ($graphic_screen$$.style.imageRendering = 
